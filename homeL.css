@@ -344,17 +344,69 @@ p#sixthHeading {
     padding-top: 0vh;
 }
 
-td#leftSixthTd {
+td#leftSixthTd,
+td#rightSixthTd {
     width: 50vw;
-    height: 80vh;
-    background-image: url("./contactus.webp");
+    text-align: center;
+}
+
+div#contactInfo {
+    text-align: left;
+}
+
+p#phoneTitle,
+p#emailTitle,
+p#addTitle,
+p#socialTitle {
+    font-size: 1.3em;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10vw;
+}
+
+p#phoneBody,
+p#emailBody,
+p#addBody,
+p#socialBody {
+    padding-left: 10vw;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    font-family: 'Solway', serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+div#sixth {
+    background-color: rgb(255, 239, 210);
+    width: 99vw;
+    height: 45vh;
+    padding-bottom: 16vh;
+}
+
+p#sixthHeading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+    padding-bottom: 8vh;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 8vh;
+}
+
+td#leftSixthTd {
+    padding-left: 5vw;
+    width: 40vw;
+    height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 td#rightSixthTd {
-    width: 50vw;
-    text-align: center;
+    width: 40vw;
 }
 
 div#contactInfo {
